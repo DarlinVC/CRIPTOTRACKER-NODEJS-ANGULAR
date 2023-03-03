@@ -11,11 +11,14 @@
 </p>
 
 <h3>How to install?</h3>
-<p>To install this project, you will need to have NodeJS and Angular installed on your computer.
+<p><br><br>To install this project, you will need to have NodeJS and Angular installed on your computer.
 <br>
+ <br>
 Then you should install all the dependencies as they are in the package.json of both parts("Front and back").
 <br>
+ <br>
 You must have a binance api key and secret api and configure them in your .env file, with the names indicated in the config folder and their respective file.
 <br>
+ <br>
  After you follow those steps, you're done. Run the app with the commands: ng serve for angular and npm start in nodeJS.
 </p>
