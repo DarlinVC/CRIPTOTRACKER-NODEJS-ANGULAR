@@ -42,7 +42,7 @@ You must have a binance api key and secret api and configure them in your .env f
 <p><br>Para instalar este proyecto, deberá tener NodeJS y Angular instalados en su computadora.
 <br>
    <br>
-Luego, debe instalar todas las dependencias tal como están en el paquete.json de ambas partes ("Anverso y reverso").
+Luego, debe instalar todas las dependencias tal como están en el paquete.json de ambas partes ("front y back").
 <br>
    <br>
 Debe tener una clave de api de binance y una api secreta y configurarlas en su archivo .env, con los nombres indicados en la carpeta de configuración y su respectivo archivo.
