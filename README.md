@@ -11,7 +11,7 @@
 </p>
 
 <h3>How to install?</h3>
-<p><br><br>To install this project, you will need to have NodeJS and Angular installed on your computer.
+<p><br>To install this project, you will need to have NodeJS and Angular installed on your computer.
 <br>
  <br>
 Then you should install all the dependencies as they are in the package.json of both parts("Front and back").
