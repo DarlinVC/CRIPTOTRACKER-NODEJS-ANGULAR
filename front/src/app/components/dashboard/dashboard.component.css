@@ -1,0 +1,116 @@
+* {
+  /* vars */
+  --bg: #111117;
+  --bg-secondary: #232838;
+  --color-primary: #8b6ffb;
+
+  font-family: 'Tilt Neon', cursive;
+}
+
+/* General Settings */
+
+img.cripto-img {
+  width: 50px;
+  height: 50px;
+}
+
+/* General Settings end */
+div.main {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.left-content,
+.right-content {
+  padding: 0 !important;
+  min-width: 100px;
+}
+
+/* Cripto info */
+
+.text-green {
+  color: #12ac4d;
+  text-shadow: #12ac4d 0 0 5px;
+}
+
+.text-red {
+  color: #b61822;
+  text-shadow: #b61822 0 0 5px;
+}
+
+.cripto-name-container {
+  min-height: 60px;
+}
+
+.cripto-name-container span{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+div.cripto-percentage {
+  background-color: var(--bg-secondary);
+  cursor: pointer;
+}
+
+div.cripto-percentage, .percentage {
+  cursor: pointer;
+}
+
+
+/* Cripto info end */
+
+div.main div.left-content div.chart {
+  max-height: 500px;
+  background: var(--bg-secondary);
+}
+
+.right-content {
+  padding: 0 20px 0  !important;
+  border-left: 1px solid var(--bg-secondary);
+  height: 90vh;
+}
+
+.inside-list {
+  font-size: 0.90rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+div::-webkit-scrollbar {
+  width: 5px; 
+}
+
+div::-webkit-scrollbar-track {
+  background-color: transparent; 
+}
+
+div::-webkit-scrollbar-thumb {
+  background-color: #282a307a;
+  border: none; 
+  border-radius: 5px;
+}
+
+div::-webkit-scrollbar-button {
+  display: none; 
+}
+
+@media (max-width: 1500px) {
+  div.main {
+    grid-template-columns: 3fr 1fr;
+  }
+}
+
+@media (max-width: 1260px) {
+  div.main {
+    grid-template-columns: 1fr;
+  }
+  .right-content {
+    display: none !important;
+  }
+}
