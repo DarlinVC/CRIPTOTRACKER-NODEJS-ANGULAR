@@ -54,5 +54,5 @@ Debe tener una clave de api de binance y una api secreta y configurarlas en su a
    El código está completamente documentado.
    <br>
    <br>
-   Esta aplicación no está terminada en absoluto.
+   Esta aplicación no está terminada del todo, falta cositas.
 </p>
