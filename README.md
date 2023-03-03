@@ -5,4 +5,17 @@
 
 <h3>Description</h3>
 
-<p>This project is developed with angular and nodejs, using socket.io technology and the binance api for nodejs "node-binance-api". It is a mini app that shows in real time all the data of a cryptocurrency, in this case bitcoin.</p>
+<p>This project is developed with angular and nodejs, using socket.io technology and the binance api for nodejs "node-binance-api". It is a mini app that shows in real time all the data of a cryptocurrency, in this case bitcoin.
+<br>
+ In this project I use: Typescript on the client side and javascript on the server side.
+</p>
+
+<h3>How to install?</h3>
+<p>To install this project, you will need to have NodeJS and Angular installed on your computer.
+<br>
+Then you should install all the dependencies as they are in the package.json of both parts("Front and back").
+<br>
+You must have a binance api key and secret api and configure them in your .env file, with the names indicated in the config folder and their respective file.
+<br>
+ After you follow those steps, you're done. Run the app with the commands: ng serve for angular and npm start in nodeJS.
+</p>
