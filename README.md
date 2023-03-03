@@ -29,3 +29,30 @@ You must have a binance api key and secret api and configure them in your .env f
  This application is not finished at all.
 </p>
 
+### En español:
+
+<h3>Descripción</h3>
+
+<p>Este proyecto está desarrollado con angular y nodejs, utilizando la tecnología socket.io y la api de binance para nodejs "node-binance-api". Es una mini app que muestra en tiempo real todos los datos de una criptomoneda, en este caso bitcoin.
+<br>
+   En este proyecto utilizo: Typescript en el lado del cliente y javascript en el lado del servidor.
+</p>
+
+<h3>¿Cómo instalar?</h3>
+<p><br>Para instalar este proyecto, deberá tener NodeJS y Angular instalados en su computadora.
+<br>
+   <br>
+Luego, debe instalar todas las dependencias tal como están en el paquete.json de ambas partes ("Anverso y reverso").
+<br>
+   <br>
+Debe tener una clave de api de binance y una api secreta y configurarlas en su archivo .env, con los nombres indicados en la carpeta de configuración y su respectivo archivo.
+<br>
+   <br>
+   Después de seguir esos pasos, ya está. Ejecute la aplicación con los comandos: ng serve for angular y npm start en nodeJS.
+   <br>
+   <br>
+   El código está completamente documentado.
+   <br>
+   <br>
+   Esta aplicación no está terminada en absoluto.
+</p>
