@@ -45,11 +45,11 @@ div.main nav.lateral-navbar ul li i {
   -ms-transition: 0.5s ease-in-out;
 }
 
-div.main nav.lateral-navbar ul.navbar-items-down {
+div.main nav.lateral-navbar ul.navbar-items-2 {
   margin-top: auto;
 }
 
-div.main nav.lateral-navbar ul.navbar-items-down:nth-child(2) {
+div.main nav.lateral-navbar ul.navbar-items-2:nth-child(2) {
   margin-bottom: 0 !important;
 }
 
@@ -76,15 +76,51 @@ div.main div.content {
 /* End Content */
 
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
   .main {
-    display: none !important;
+    padding: 0 !important;
+    height: 100vh !important;
+  }
+  div.main div.content {
+    padding: 20px;
+  }
+  .lateral-navbar {
+    margin: 0 !important;
+    padding: 20px !important;
+    width: 100vw !important;
+    height: auto !important;
+    border-radius: 0 !important;
+    flex-direction: row !important;
+    justify-content: space-evenly;
+    position: fixed !important;
+    bottom: 0 !important;
+  }
+  .lateral-navbar ul {
+    margin: 0 !important;
+    flex-direction: row !important;
+    align-items: center !important;
   }
 
-  div.warning {
-    display: block;
-    color: white;
-    font-size: 1.3rem;
+  .lateral-navbar .navbar-items-2 {
+    display: flex;
+    margin-top: 0 !important;
   }
 
+  .lateral-navbar ul li{
+    margin-right: 40px;
+    margin-bottom: 0 !important;
+  }
+  .lateral-navbar ul li i{
+    font-size: 32px !important;
+  }
+  .lateral-navbar ul li.diff {
+    margin-right: 0 !important;
+  }
+  
+}
+
+@media (max-width: 650px) {
+  .lateral-navbar ul li i{
+    font-size: 26px !important;
+  }
 }

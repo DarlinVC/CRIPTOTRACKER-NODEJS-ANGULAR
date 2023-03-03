@@ -65,7 +65,7 @@ export class DashboardComponent implements OnInit {
      */
     setTimeout(() => {
       this.updateChartDimensions();
-    }, 3000);
+    }, 1000);
 
     /**
      * gets the data, which is sent from the server socket.

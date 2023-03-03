@@ -114,3 +114,28 @@ div::-webkit-scrollbar-button {
     display: none !important;
   }
 }
+
+@media (max-width: 950px){
+  .cripto-info .cripto-percentage, .cripto-name-container, .cripto-img{
+    margin-left: auto;
+  }
+}
+
+@media (max-width:784px) {
+  .cripto-info {
+    justify-content: space-between;
+  }
+  .cripto-prices-info {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .cripto-prices-info .current-price {
+    font-size: 24px !important;
+  }
+  .cripto-name-container, .cripto-img{
+    margin-left: 0 !important;
+  }
+    .cripto-percentage{
+      display: none !important;
+    }
+}
