@@ -24,4 +24,8 @@ You must have a binance api key and secret api and configure them in your .env f
  <br>
  <br>
  The code is fully documented. 
+ <br>
+ <br>
+ This application is not finished at all.
 </p>
+
