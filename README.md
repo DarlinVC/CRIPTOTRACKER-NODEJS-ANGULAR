@@ -21,4 +21,7 @@ You must have a binance api key and secret api and configure them in your .env f
 <br>
  <br>
  After you follow those steps, you're done. Run the app with the commands: ng serve for angular and npm start in nodeJS.
+ <br>
+ <br>
+ The code is fully documented. 
 </p>
